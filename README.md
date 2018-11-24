@@ -1,6 +1,6 @@
 # Shorten Url Web [![Build Status](https://travis-ci.org/linhnn/shorten-url-web.svg?branch=master)](https://travis-ci.org/linhnn/shorten-url-web)
 
-Create React apps with Redux, Apollo.
+Create React app with Redux, Apollo GraphQL.
 
 Author: linhvt22@gmail.com
 
