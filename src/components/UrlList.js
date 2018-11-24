@@ -9,6 +9,7 @@ const UrlList = (props) => {
         return (
             <li key={url.urlCode}>
                 <p>{url.originalUrl} { props.count && <span> - {url.count} visit(s)</span> }</p>
+                { url.title && <p>{url.title}</p> }
                 <p><a href={url.shortUrl} target="_blank" rel="noopener noreferrer">{url.shortUrl}</a></p>
             </li>
         );

@@ -6,6 +6,7 @@ export default gql`
 			originalUrl
 			shortUrl
 			urlCode
+			title
 		}
 	}
 `;

@@ -5,6 +5,7 @@ export default gql`
     url(urlCode: $urlCode) {
       originalUrl
       shortUrl
+      title
     }
   }
 `;
