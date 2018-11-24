@@ -1,6 +1,7 @@
 # Shorten Url Web
 
 Create React apps with Redux, Apollo.
+
 Author: linhvt22@gmail.com
 
 ## Requirements
