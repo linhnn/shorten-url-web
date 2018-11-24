@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb",
+  "rules": {
+  	"func-names": ["error", "never"],
+  	"no-trailing-spaces": 0,
+  	"no-underscore-dangle": 0,
+  	"no-prototype-builtins": 0,
+  	"prefer-destructuring": ["error", {"object": true, "array": false}],
+  	"no-shadow": "off",
+    "no-param-reassign": "off",
+  	"no-tabs": "off",
+  	"indent": "off",
+  	"comma-dangle": "off",
+  	"consistent-return": "off",
+  	"no-undef": "off",
+  	"class-methods-use-this": "off",
+  	"no-plusplus": "off",
+  	"radix": "off",
+  	"arrow-body-style": "off",
+  	"function-paren-newline": "off",
+  	"react/jsx-indent": "off",
+  	"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+  	"react/prefer-stateless-function": "off",
+  	"react/no-string-refs": "off",
+  	"react/jsx-indent-props": "off",
+  	"react/no-array-index-key": "off",
+  	"react/forbid-prop-types": "off",
+  	"jsx-a11y/anchor-is-valid": "off",
+    "import/prefer-default-export": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-console": 0,
+    "no-use-before-define": 0,
+    "react/destructuring-assignment": [<enabled>, 'never']
+  },
+  "globals": {
+
+  }
+}
