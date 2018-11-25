@@ -10,7 +10,7 @@ export default (state = {}, action) => {
     case HOME_PAGE_LOADED:
       return {
         ...state,
-        urls: action.payload.data.urls,
+        urls: action.payload.data ? action.payload.data.urls: [],
         urlIds: action.urlIds,
         url: '',
       };

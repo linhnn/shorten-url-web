@@ -69,9 +69,10 @@ class Home extends Component {
 
   async componentWillMount() {
     const urls = localStorage.getItem('urls');
-    const urlArr = urls.split(',');
+    let urlArr = [];
     let result = [];
     if (urls) {
+      urlArr = urls.split(',');
       result = await this.props.client.query({
         query: fetchUrls,
         variables: { urlCodes: urls }
